@@ -13,7 +13,7 @@
         android:title="@string/delete"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/menu_share_1"
+        android:id="@+id/menu_share"
         android:icon="@drawable/ic_share"
         android:title="@string/share"
         app:showAsAction="ifRoom"/>
@@ -35,19 +35,36 @@
         </menu>
     </item>
     <item
-        android:id="@+id/menu_share_2"
-        android:icon="@drawable/ic_share"
-        android:title="@string/share"
-        android:visible="false"
+        android:id="@+id/menu_add_to_favorites"
+        android:icon="@drawable/ic_star_off"
+        android:title="@string/add_to_favorites"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/menu_lock_orientation"
-        android:title="@string/lock_orientation"
+        android:id="@+id/menu_remove_from_favorites"
+        android:icon="@drawable/ic_star_on"
+        android:title="@string/remove_from_favorites"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_restore_file"
+        android:title="@string/restore_this_file"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/menu_slideshow"
-        android:title="@string/slideshow"
-        app:showAsAction="never"/>
+        android:id="@+id/menu_change_orientation"
+        android:icon="@drawable/ic_orientation_auto"
+        android:title="@string/change_orientation"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_force_portrait"
+                android:title="@string/force_portrait"/>
+            <item
+                android:id="@+id/menu_force_landscape"
+                android:title="@string/force_landscape"/>
+            <item
+                android:id="@+id/menu_default_orientation"
+                android:title="@string/use_default_orientation"/>
+        </menu>
+    </item>
     <item
         android:id="@+id/menu_copy_to"
         android:title="@string/copy_to"
@@ -55,10 +72,6 @@
     <item
         android:id="@+id/menu_move_to"
         android:title="@string/move_to"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/menu_set_as"
-        android:title="@string/set_as"
         app:showAsAction="never"/>
     <item
         android:id="@+id/menu_open_with"
@@ -78,14 +91,24 @@
         android:title="@string/edit"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/menu_rename"
-        android:icon="@drawable/ic_rename"
-        android:title="@string/rename"
-        app:showAsAction="ifRoom"/>
-    <item
         android:id="@+id/menu_properties"
         android:icon="@drawable/ic_info"
         android:title="@string/properties"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_slideshow"
+        android:icon="@drawable/ic_slideshow"
+        android:title="@string/slideshow"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_set_as"
+        android:icon="@drawable/ic_set_as"
+        android:title="@string/set_as"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_rename"
+        android:icon="@drawable/ic_rename_new"
+        android:title="@string/rename"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/menu_show_on_map"

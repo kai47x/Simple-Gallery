@@ -2,6 +2,32 @@
 <resources>
 
     <!-- Release notes -->
+    <string name="release_206">Added a new option for password protecting file deletion/move</string>
+    <string name="release_202">Added a new option for showing the Recycle Bin as the last folder</string>
+    <string name="release_201">
+        Added a new settings toggle \"Show images in the highest possible quality\"\n
+        Allow faster video seeking by dragging a finger at the bottom seekbar
+    </string>
+    <string name="release_184">
+        Added Panorama photo support\n
+        Allow forcing portrait/landscape orientation at fullscreen view\n
+        Allow customizing visible fullscreen bottom actions in the app settings
+    </string>
+    <string name="release_182">
+        Allow grouping media thumbnails by some criteria\n
+        Added a Recycle Bin enabled by default, can be disabled in Settings, or from the Bin itself
+    </string>
+    <string name="release_181">Allow selecting Favorite items for easy access</string>
+    <string name="release_180">Allow filtering out RAW images separately</string>
+    <string name="release_178">Added sorting by Date Taken</string>
+    <string name="release_177">Allow customizing the app launcher icon color</string>
+    <string name="release_163">Added toggles for disabling Pull-to-refresh and permanent Delete dialog confirmation skipping</string>
+    <string name="release_159">
+        Added a toggle for replacing deep zoomable images with better quality ones\n
+        Added a toggle for hiding Extended details when the statusbar is hidden\n
+        Added a toggle for switching media files by clicking on screen sides
+    </string>
+    <string name="release_158">Added optional one-finger drag zoom, disabled by default</string>
     <string name="release_143">
         Added new options to use english language on non-english devices, to password protect whole app and to lock screen orientation at fullscreen view
     </string>

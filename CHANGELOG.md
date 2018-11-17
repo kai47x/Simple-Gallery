@@ -1,6 +1,456 @@
 Changelog
 ==========
 
+Version 6.0.0 *(2018-11-04)*
+----------------------------
+
+ * Initial Pro version
+
+Version 5.1.3 *(2018-11-04)*
+----------------------------
+
+ * Adding an option to store last video playback position (by mathevs)
+ * Adding a "Keep both" conflict resolution at copy/move (by Doubl3MM)
+ * Improved panoramic video detection
+ * Remove some glitches related to third party file opening
+ * Do not exclude the Data folder by default
+ * Removed the "Avoid showing Whats New at app startup" option
+ * This version of the app is no longer maintained. Please upgrade to the Pro version. It is free till Nov 12 2018. You can find the Upgrade button at the top of the app Settings.
+
+Version 5.1.2 *(2018-10-30)*
+----------------------------
+
+ * Added a new option for password protecting file deletion/move
+ * Improved panorama video detection
+ * Improved the opening of media files without file extension
+ * Disabled move operation on Recycle bin items, use Restore
+ * Fixed handling of some third party image picker intents
+ * Fixed slideshow looping and a couple other UX glitches
+ * Improved the stability of retrieving cached files
+ * Hi
+
+Version 5.1.1 *(2018-10-23)*
+----------------------------
+
+ * Fixing the inability to delete SD card files
+
+Version 5.1.0 *(2018-10-23)*
+----------------------------
+
+ * Added support for panorama videos
+ * Added an extra check to avoid trying deleting files without write permission
+ * Added an initial implementation of renaming multiple items at once
+ * Added some performance improvements at item de/selection
+ * Allow enabling hidden item visibility at the copy/move destination picker
+ * Allow closing fullscreen view with swipe down gestures (can be disabled in settings)
+ * Fixed a glitch with Favorite items getting unselected every day
+ * Fixed exposure time displayed at long exposure photos
+ * Fixed fullscreen images being sometimes totally zoomed in after device rotation
+ * Fixed slideshow direction
+ * Made loading initial fullscreen view quicker and fullscreen toggling more reliable
+ * Not sure what else, nobody reads this anyway
+
+Version 5.0.1 *(2018-10-17)*
+----------------------------
+
+ * Adding some crashfixes
+
+Version 5.0.0 *(2018-10-17)*
+----------------------------
+
+ * Increased the minimal required Android OS version to 5 (Lollipop)
+ * Rewrote file selection for more robustness
+ * Added a new option for showing the Recycle Bin as the last folder
+ * Added Search for searching folders by names
+ * Replaced the G+ button with Reddit
+ * Couple smaller glitch fixes and improvements
+
+Version 4.6.5 *(2018-10-02)*
+----------------------------
+
+ * Added notch support for Android 9
+ * Allow faster video seeking by dragging a finger at the bottom seekbar
+ * Use a different way of displaying fullscreen GIFs
+ * Added a new toggle for trying to show the best possible image quality
+ * Keep Favorite items marked after moving
+ * Fixed some glitches related to toggling fullscreen mode
+ * Many other smaller improvements
+
+Version 4.6.4 *(2018-09-22)*
+----------------------------
+
+ * Fixed lag at zooming fullscreen images on some devices
+
+Version 4.6.3 *(2018-09-21)*
+----------------------------
+
+ * Improved zooming performance at fullscreen view
+ * Fixed showing conflict resolution dialog at Move
+ * Fixed selection check icons at horizontal scrolling
+ * Fixed displaying some fullscreen images, where file path contained percentage sign or hashtag
+ * Optimized many database operations
+ * Fixed many other smaller issues
+
+Version 4.6.2 *(2018-09-05)*
+----------------------------
+
+ * Fixed opening some email client attachments and MMS images
+ * Attempt to fix lagging at zooming in on some devices
+ * Couple other smaller bugfixes and improvements
+
+Version 4.6.1 *(2018-08-21)*
+----------------------------
+
+ * Added a crashfix at loading fullscreen images
+
+Version 4.6.0 *(2018-08-20)*
+----------------------------
+
+ * Added support for SVGs
+ * Improved fullscreen image quality and performance
+ * Properly show files with hastags and percentage signs in their paths
+ * Many other smaller UX improvements
+
+Version 4.5.2 *(2018-08-08)*
+----------------------------
+
+ * Adding a toggle for disabling deep zoomable images
+ * Fix displaying third party images
+ * Couple smaller UX fixes
+
+Version 4.5.1 *(2018-08-07)*
+----------------------------
+
+ * Adding a crashfix
+
+Version 4.5.0 *(2018-08-07)*
+----------------------------
+
+ * Use real Move instead of the old copy/delete if both source and destination are on the internal storage
+ * Remake the fullscreen view, always use deep zoomable images with good quality
+ * Couple stability improvements
+
+Version 4.4.4 *(2018-08-02)*
+----------------------------
+
+ * Adding a crashfix
+
+Version 4.4.3 *(2018-08-01)*
+----------------------------
+
+ * Removed the More Donating Options from the Purchase Thank You dialog
+
+Version 4.4.2 *(2018-08-01)*
+----------------------------
+
+ * Removed the homepage from About section
+
+Version 4.4.1 *(2018-07-30)*
+----------------------------
+
+ * Hide both Play and Pause video buttons after 2 secs
+ * Improved Immersive mode fullscreen behaviour
+ * Some other stability improvements
+
+Version 4.4.0 *(2018-07-26)*
+----------------------------
+
+ * Reworked the editor, added some filters
+ * Allow hiding the Recycle Bin from the main screen folders
+ * Added a menu item for fixing file Date Taken
+ * Fixed some glitches around recycle bin item restoring
+ * Fixed some issues with video playback on resume
+ * Many other UX and stability improvements
+
+Version 4.3.5 *(2018-07-17)*
+----------------------------
+
+ * Fixed some Recycle bin related issues
+ * A few more UX and stability improvements
+
+Version 4.3.4 *(2018-07-15)*
+----------------------------
+
+ * Fixed disappearing launcher icon after changing its color on some devices
+ * Fixed some video related errors
+ * Added "Set as" as an available action at the fullscreen bottom actions
+ * Do the appropriate actions at trying to delete the Recycle Bin or Favorites folders
+ * Fixed a glitch with some panorama images not recognized properly
+ * Avoid blank screen at toggling "Temporarily show hidden"
+
+Version 4.3.3 *(2018-07-06)*
+----------------------------
+
+ * Couple stability improvements and glitch fixes
+
+Version 4.3.2 *(2018-07-04)*
+----------------------------
+
+ * Added Panorama photo support
+ * Allow customizing visible fullscreen bottom actions
+ * Allow forcing portrait/landscape modes at fullscreen view
+ * Use Exoplayer for playing videos
+ * Many smaller UX and stability improvements
+
+Version 4.3.1 *(2018-06-28)*
+----------------------------
+
+ * Adding some crashfixes
+
+Version 4.3.0 *(2018-06-28)*
+----------------------------
+
+ * Added a Recycle Bin
+ * Allow grouping media thumbnails by different criteria
+ * Fixed some calculation glitches around fastscroller
+ * Change the fullscreen Edit icon to a pencil
+ * Allow sorting "Show All" separately
+ * Many smaller stability and UX improvements
+
+Version 4.2.1 *(2018-06-20)*
+----------------------------
+
+ * Allow selecting Favorite items for easy access
+ * Fix sorting by Date Taken after files have been copied
+ * Couple other stability and UX improvements
+
+Version 4.2.0 *(2018-06-18)*
+----------------------------
+
+ * Move some actions at the fullscreen view to the bottom of the screen
+ * Allow filtering out RAW images separately
+ * Add a warning if the user tries deleting a folder
+ * Properly reset the temporary Skip Delete Confirmation dialog
+ * Show a Pause button over video if not in fullscreen mode
+ * Fix some glitches around inserting pin/pattern/fingerprint
+ * Many other stability and ux improvements
+
+Version 4.1.1 *(2018-05-26)*
+----------------------------
+
+ * Always set folder thumbnail based on folder content sorting
+ * Make sure hidden folders have the "(hidden)" appended
+
+Version 4.1.0 *(2018-05-25)*
+----------------------------
+
+ * Added sorting by Date Taken
+ * Fixed file renaming on Android Oreo
+ * Fixed some scrollbar glitches
+ * Fixed broken "Use english language" in some cases
+ * Make sure only the proper files are shown at "Show all folders content"
+ * Many other smaller UX, stability improvements and bugfixes
+
+Version 4.0.0 *(2018-05-13)*
+----------------------------
+
+ * Allow customizing the app launcher color
+ * Remove the top spinning circle at initial launch
+ * Many other bugfixes and UX/stability improvements
+
+Version 3.8.2 *(2018-04-26)*
+----------------------------
+
+ * Rewrote media caching and new file discovery for better performance
+ * Many OTG file handling improvements
+
+Version 3.8.1 *(2018-04-24)*
+----------------------------
+
+ * Rewrote media caching and new file discovery for better performance
+ * Some OTG file handling improvements
+
+Version 3.8.0 *(2018-04-22)*
+----------------------------
+
+ * Rewrote media caching for better performance
+ * Cache all media items, not just 80 per folder
+ * Some additional performance and stability improvements
+
+Version 3.7.3 *(2018-04-15)*
+----------------------------
+
+ * Show hidden folders when appropriate
+
+Version 3.7.2 *(2018-04-14)*
+----------------------------
+
+ * Fix Edit intent handled by other apps
+ * Hide folders containing ".nomedia" file, even if explicitly included
+ * Remove sorting by Date Taken until proper implementation
+
+Version 3.7.1 *(2018-04-12)*
+----------------------------
+
+ * Fix no media being shown to some people
+ * Fix some glitches at renaming files
+ * Show a count of files being deleted at the confirmation prompt
+
+Version 3.7.0 *(2018-04-10)*
+----------------------------
+
+ * Rewrote media file fetching for better performance and new item discovering
+ * Make un/hiding folders quicker
+ * Make automatic fullscreen toggling animation smoother by delaying it
+ * Many other smaller performance and UX improvements
+
+Version 3.6.3 *(2018-03-30)*
+----------------------------
+
+ * Couple file scanning and thumbnail displaying updates
+ * Show a dialog about the new Simple Clock app to some users
+
+Version 3.6.2 *(2018-03-23)*
+----------------------------
+
+ * Fixing some crashes related to file scanning
+ * Do not scan Download folder file by file, it can contain many items
+
+Version 3.6.1 *(2018-03-22)*
+----------------------------
+
+ * Set proper file mimetype after editing or other file operation
+ * Try scanning Screenshots and Download folders more thoroughly
+ * Couple stability improvements
+
+Version 3.6.0 *(2018-03-15)*
+----------------------------
+
+ * Fix duplicate files at renaming or hiding
+ * Improve some third party handling
+ * Optimize rotated image saving to avoid Out of memory errors
+ * Optimize new item discoveries or folder refreshing
+ * Many other smaller performance and UX improvements
+
+Version 3.5.3 *(2018-03-03)*
+----------------------------
+
+ * Properly keep last-modified at file copy/move if set so
+ * Misc other smaller glitch and translation improvements
+
+Version 3.5.2 *(2018-02-25)*
+----------------------------
+
+ * Fixed third party intent uri generation
+ * Properly handle files with colon in filename
+ * Fix copying whole folders
+
+Version 3.5.1 *(2018-02-25)*
+----------------------------
+
+ * Added a toggle for disabling pull-to-refresh
+ * Added a toggle for permanent Delete confirmation dialog skipping
+ * Fixed saving image after editing
+
+Version 3.5.0 *(2018-02-20)*
+----------------------------
+
+ * Added copy/move progress notification
+ * Fixed some glitches a round rotating media by aspect ratio
+ * Added FAQ
+ * Make explicit folder inclusion recursive
+ * Added initial OTG device support
+ * Rewrote third party intent handling and file handling, fixed some bugs along the way
+ * Probably added some new bugs
+
+Version 3.4.1 *(2018-02-09)*
+----------------------------
+
+ * Fix some glitches around swiping fullscreen media with instant media switch or gesture brightness change enabled
+ * Make changing image brightness with gestures disabled by default
+ * Allow skipping forward/backward videos by pressing max/current time
+ * Fix some cases of editing third party images
+ * Couple other stability improvements
+
+Version 3.4.0 *(2018-02-05)*
+----------------------------
+
+ * Allow changing the brightness by vertical gestures on images (by trubitsyn)
+ * Properly fetch all media files from recognized folders
+ * Make thumbnail info on the main screen a bit easier to read
+ * Fix seeing blank thumbnail after deleting files in some cases
+ * Reset zoom level on orientation change at fullscreen media
+ * Add an optional extra check to avoid showing invalid files
+ * Add a toggle to prevent showing What's new on startup
+ * Many other stability and performance improvements
+
+Version 3.3.1 *(2018-01-29)*
+----------------------------
+
+ * Added a toggle for replacing deep zoomable images with better quality ones
+ * Added a toggle for hiding Extended details when the statusbar is hidden
+ * Added a toggle for switching media files by clicking on screen sides
+ * Disable "Temporarily show hidden" after 10 minutes of backgrounding
+ * Split Settings in separate sections
+
+Version 3.3.0 *(2018-01-23)*
+----------------------------
+
+ * Added optional one-finger drag zoom at fullscreen media (by gh123man)
+ * Allow opening the app even without any media files (by gh123man)
+ * Refresh media files in the background when Simple Camera creates a new photo/video
+ * Improve fullscreen media rotation by "Device Rotation"
+
+Version 3.2.4 *(2018-01-17)*
+----------------------------
+
+ * An F-droid build only, trying to add screenshots there
+
+Version 3.2.3 *(2018-01-14)*
+----------------------------
+
+ * An F-droid build only, fixing a compile error
+
+Version 3.2.2 *(2018-01-09)*
+----------------------------
+
+ * Some scrolling issues fixed
+ * Improve new media file discovery
+
+Version 3.2.1 *(2018-01-08)*
+----------------------------
+
+ * Adding a crashfix
+ * Couple scrollbar glitch fixes
+
+Version 3.2.0 *(2018-01-07)*
+----------------------------
+
+ * Rewrote scrolling to improve the performance
+ * Disable "Delete empty folders" by default
+ * Added initial Search to media thumbnails screen
+ * Apply the hidden folder password protection to "Manage hidden folders"
+ * Replace Move with Copy/Delete on Android 7+
+ * Improve SD card file support
+
+Version 3.1.2 *(2017-12-30)*
+----------------------------
+
+ * Fixed some video related crashes
+
+Version 3.1.1 *(2017-12-29)*
+----------------------------
+
+ * Added a new setting item for managing folders hidden with .nomedia
+ * Speed up image loading
+ * Use copy/delete instead of move on Android 8.x
+ * Improved double-tap zoom ratios
+
+Version 3.1.0 *(2017-12-25)*
+----------------------------
+
+ * Fixed some issues around picking contact images
+ * Misc other improvements
+
+Version 3.0.3 *(2017-12-20)*
+----------------------------
+
+ * Added a new Black & White theme with special handling
+ * Fixed opening MMS attachments
+ * Fixed viewing properties/sharing etc at fullscreen media
+ * Apply "Dark background at fullscreen media" to the status bar too
+ * Misc performance/stability improvements
+
 Version 3.0.2 *(2017-12-17)*
 ----------------------------
 
